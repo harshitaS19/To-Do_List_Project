@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="dark-mode-toggle">
+    <button id="toggleDark"><i data-lucide="moon-star"></i></button>
+  </div>
+
+  <div class="container">
+    <h1>📝 To-Do List</h1>
+
+    <!-- Filters -->
+    <div class="filters">
+      <button onclick="setFilter('all')">All</button>
+      <button onclick="setFilter('completed')">Completed</button>
+      <button onclick="setFilter('incomplete')">Incomplete</button>
+    </div>
+
+    <!-- Inputs -->
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <input type="date" id="dueDateInput" />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+  <!-- <canvas id="stars"></canvas> -->
+  <canvas id="stars"></canvas>
+
+  
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
