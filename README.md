@@ -4,11 +4,17 @@ A simple yet stylish To-Do List Web App built with HTML, CSS, and JavaScript.
 Features include task management, due dates, filters, dark mode, and an animated star background.
 
 🚀 Features
+
 ✅ Add, complete, and delete tasks
+
 📅 Set due dates for tasks
+
 🔍 Filter tasks (All | Completed | Incomplete)
+
 🌙 Dark mode toggle
+
 🌌 Animated background with stars
+
 💾 Data persistence using LocalStorage
 
 
@@ -23,4 +29,5 @@ Features include task management, due dates, filters, dark mode, and an animated
 💻 Tech Stack
 
 Frontend: HTML5, CSS3, JavaScript
+
 Storage: LocalStorage
